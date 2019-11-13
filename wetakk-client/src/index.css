@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:500,900&display=swap');
+
+body {
+  background-color: #e6ecf0;
+}
+
+/* Navbar */
+
+.navbar {
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: 1rem;
+}
+
+.navbar-brand {
+  font-family: 'Rubik', sans-serif;
+  font-size: 23px;
+}
+
+.navbar a {
+  font-weight: bold;
+  color: white;
+}
+
+.navbar a:hover {
+  color: #dedede;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+ul.nav.navbar-nav li {
+  margin: 0 0.5rem;
+}
+
+.onboarding > .navbar {
+  background-color: #0a0d36;
+  background-size: 100% 100%;
+}
+
+/* Homepage */
+
+.home-hero {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 3rem;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+  background-image: url("./images/signed-out-home.jpg");
+  text-align: center;
+  padding: 1rem;
+  background-position: center center;
+  background-size: cover;
+  color: #fff;
+  text-shadow: 0 0 8px #66757f;
+}
+
+.home-hero .btn {
+  background-color: #0a0d36;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+/* AuthForm */
+
+.AuthForm {
+  font-family: 'Rubik', sans-serif;
+}
+
+.AuthForm .btn {
+  background-color: #0a0d36;
+  outline: none;
+  margin-top: 30px;
+}
+
+/* Messages */
+
+#messages .list-group-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 7px 20px 12px;
+}
+
+#messages:not(.no-hover) .list-group-item:hover {
+  background-color: #e6ecf0;
+}
