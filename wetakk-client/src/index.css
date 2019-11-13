@@ -4,8 +4,6 @@ body {
   background-color: #e6ecf0;
 }
 
-/* Navbar */
-
 .navbar {
   font-family: 'Rubik', sans-serif;
   margin-bottom: 1rem;
@@ -36,8 +34,6 @@ ul.nav.navbar-nav li {
   background-size: 100% 100%;
 }
 
-/* Homepage */
-
 .home-hero {
   font-family: 'Rubik', sans-serif;
   font-weight: 3rem;
@@ -66,8 +62,6 @@ ul.nav.navbar-nav li {
   -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-/* AuthForm */
-
 .AuthForm {
   font-family: 'Rubik', sans-serif;
 }
@@ -78,8 +72,6 @@ ul.nav.navbar-nav li {
   margin-top: 30px;
 }
 
-/* Messages */
-
 #messages .list-group-item {
   display: flex;
   align-items: flex-start;
@@ -88,4 +80,20 @@ ul.nav.navbar-nav li {
 
 #messages:not(.no-hover) .list-group-item:hover {
   background-color: #e6ecf0;
+}
+
+.timeline-image {
+  border-radius: 50px;
+  height: 48px;
+  width: 48px;
+  margin: 2px 30px 10px 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+a.btn.btn-danger,
+a.btn.btn-danger:hover {
+  color: white;
 }

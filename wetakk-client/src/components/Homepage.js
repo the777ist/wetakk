@@ -8,7 +8,7 @@ const Homepage = ({ currentUser }) => {
 			<div className="home-hero">
 				<h1>Welcome to WeTakk</h1>
 				<h3>A great place to connect with family and friends!</h3>
-				<Link to="/signup" className="btn btn-primary">Sign Up</Link>
+				<Link to="/signup" className="btn btn-primary btn-lg">Sign Up</Link>
 			</div>
 		);
 	}
