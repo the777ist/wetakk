@@ -1,4 +1,4 @@
-# 🦊WeTakk - A Forum to connect with Friends and Family
+# 🦊WeTakk
 
 ### WeTakk is a forum that allows users to send messages to and view messages sent by other registered users built using MongoDB, Express, NodeJS React and Redux.
 
