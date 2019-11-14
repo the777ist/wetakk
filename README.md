@@ -3,11 +3,10 @@
 ### WeTakk is a forum that allows users to send messages to and view messages sent by other registered users built using MongoDB, Express, NodeJS React and Redux.
 
 #### SERVER:
-* Navigate to wetakk-server and run the below commands:
-  1. `npm install`
-  2. `node index.js`
+  1. Install and start MongoDB
+  2. Install dependencies: `npm install`
+  3. Start the server: `node index.js`
 
 #### CLIENT:
-* Navigate to wetakk-client and run the below commands:
-  1. `npm install`
-  2. `npm node index.js`
+  1. Install dependencies: `npm install`
+  2. Run `npm start`
