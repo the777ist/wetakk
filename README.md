@@ -4,10 +4,10 @@
 
 #### SERVER:
 * Navigate to wetakk-server and run the below commands:
-  * `npm install`
-  * `node index.js`
+  1. `npm install`
+  2. `node index.js`
 
 #### CLIENT:
 * Navigate to wetakk-client and run the below commands:
-  * `npm install`
-  * `npm node index.js`
+  1. `npm install`
+  2. `npm node index.js`
